@@ -11,7 +11,7 @@ export default function RevenueChart() {
           <XAxis dataKey="day" tick={{ fontSize: 11, fill: "var(--text3)" }} axisLine={false} tickLine={false} />
           <YAxis hide />
           <Tooltip
-            formatter={(v: number) => ["₹" + v.toLocaleString()]}
+            formatter={(v) => [String(v)]}
             contentStyle={{ background: "var(--bg)", border: "1px solid var(--border)", borderRadius: 8, fontSize: 12 }}
           />
           <Legend wrapperStyle={{ fontSize: 11, color: "var(--text2)" }} />
