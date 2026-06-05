@@ -17,7 +17,7 @@ npm run dev
 
 Open http://localhost:3000
 
-## Enable AI chat
+## Enable AI chats
 
 Edit `.env.local` and add your Anthropic API key:
 
